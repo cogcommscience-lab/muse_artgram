@@ -5,9 +5,10 @@ This repository contains information for measuring inter-brain synchrony using t
 1. PC computer
 2. EEG System: [Muse 2 Headset](https://choosemuse.com/muse-2/)
 3. Lab Streaming Layer: [BlueMuse](https://github.com/kowalej/BlueMuse)
-4. Audio Mixer: [VB-Audio](https://vb-audio.com/Voicemeeter/banana.htm)
-5. BIDS Data Format: [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)
-6. ARTgram: Augmented Reality Tangram Task (coming soon!)
+4. Muse LSL: [muselsl](https://github.com/alexandrebarachant/muse-lsl/)
+5. Audio Mixer: [VB-Audio](https://vb-audio.com/Voicemeeter/banana.htm)
+6. BIDS Data Format: [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)
+7. ARTgram: Augmented Reality Tangram Task (coming soon!)
 
 # How To Administer The Task In Your Lab
 
