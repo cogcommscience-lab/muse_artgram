@@ -202,7 +202,7 @@ def preprocessing_autoreject(stream):
     raw.set_montage(montage)
 
     raw.filter(0.1, 20, method='iir', verbose= False)
-    epochs_raw = mne.make_fixed_length_epochs(raw, duration=1, preload=True)
+    epochs_raw = mne.make_fixed_length_epochs(raw, duration=4, preload=True)
     epochs = epochs_raw.copy()
 
 
