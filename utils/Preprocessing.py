@@ -202,7 +202,7 @@ def preprocessing_autoreject(stream):
     raw.set_montage(montage)
 
     raw.filter(0.1, 20, method='iir', verbose= False)
-    epochs_raw = mne.make_fixed_length_epochs(raw, duration=4, preload=True)
+    epochs_raw = mne.make_fixed_length_epochs(raw, duration=.5, preload=True)
     epochs = epochs_raw.copy()
 
 
@@ -211,7 +211,7 @@ def preprocessing_autoreject(stream):
     epochs.drop_bad(reject=reject)
 
 
-    ar = AutoReject(n_interpolate=np.arange(5), random_state=11,
+    ar = AutoReject(n_interpolate=[0], random_state=11,
                                n_jobs=1, verbose=True)
     ar.fit(epochs)  # fit on a few epochs to save time
     epochs_ar, reject_log = ar.transform(epochs, return_log=True)
