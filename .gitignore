@@ -1,2 +1,3 @@
 *.obj
 .ipynb_checkpoints/
+eeg_long_df_*s_epoch.csv
