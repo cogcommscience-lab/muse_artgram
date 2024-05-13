@@ -10,7 +10,7 @@ This repository contains information for measuring inter-brain synchrony using t
 4. Muse LSL: [muselsl](https://github.com/alexandrebarachant/muse-lsl/)
 5. Audio Mixer: [VB-Audio](https://vb-audio.com/Voicemeeter/banana.htm)
 6. BIDS Data Format: [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)
-7. ARTgram: Augmented Reality Tangram Task (coming soon!)
+7. ARTgram: Augmented Reality Tangram Task 
 
 # How To Administer The Task In Your Lab
 
@@ -20,11 +20,11 @@ See [artgram_muse_procedure.pdf](https://github.com/cogcommscience-lab/muse_artg
 * Step 1: Reads in hyperscanning data, cleans it, and structures it for later analyses
 * Step 2: Structure EEG data with self-report and behavioral data
 * Step 3: Conduct a multiverse analysis to understand the impact of different cleaning choices on your data
-* Step 4: Conduct specific analyses based on parameters selected from the multiverse analusis
+* Step 4: Conduct specific analyses based on parameters selected from the multiverse analysis
 * Step 5: Calculate how much data is lost to autoreject
 
 # Raw Data
 The raw EEG data are too large to upload to GitHub. They are stored on OSF at:
 
-All other raw data ae uploaded as .csv files.
+All other raw data are uploaded as .csv files.
 
