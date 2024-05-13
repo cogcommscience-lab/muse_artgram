@@ -26,3 +26,5 @@ See [artgram_muse_procedure.pdf](https://github.com/cogcommscience-lab/muse_artg
 # Raw Data
 The raw EEG data are too large to upload to GitHub. They are stored on OSF at:
 
+All other raw data ae uploaded as .csv files.
+
